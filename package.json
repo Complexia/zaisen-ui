@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "@apollo/client": "^3.7.12",
-    
     "@metamask/sdk": "^0.1.0",
     "@rainbow-me/rainbowkit": "^0.12.8",
     "@reduxjs/toolkit": "^1.9.3",
+    "@thirdweb-dev/react": "^3.11.7",
     "@types/node": "18.15.11",
     "@types/react": "18.0.35",
     "@types/react-dom": "18.0.11",
@@ -25,6 +25,7 @@
     "graphql": "^16.6.0",
     "net": "^1.0.2",
     "next": "13.3.0",
+    "omit-deep": "^0.3.0",
     "postcss": "8.4.21",
     "react": "18.2.0",
     "react-dom": "18.2.0",

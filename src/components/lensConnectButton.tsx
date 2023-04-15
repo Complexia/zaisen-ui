@@ -112,7 +112,7 @@ const LensConnect = () => {
                 !address && (
                     <div className="w-full mx-auto flex  justify-end mt-5">
                         <button className="text-white bg-gradient-to-r from-green-500 to-green-700 text-lg rounded-lg p-3 disabled" onClick={connect}>
-                            Connect
+                            Connect Lens
                         </button>
                     </div>
                 )

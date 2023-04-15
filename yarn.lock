@@ -1842,7 +1842,7 @@
   dependencies:
     "@tanstack/query-persist-client-core" "4.29.1"
 
-"@tanstack/react-query@^4.0.10":
+"@tanstack/react-query@^4.0.10", "@tanstack/react-query@^4.20.4":
   version "4.29.2"
   resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-4.29.2.tgz#0b6f5b328afc6e284cb9f6cc433016d696e77ed5"
   integrity sha512-xvLIrjn+FCplqGY66fUkDNH57u5OxYqYJ2qo2drJ7FVlE+Ee9mmJ2GlKe0Oq4K2Nv4X6yIZDMr9QqM/NRknNMA==
@@ -1893,7 +1893,7 @@
     mime "3.0.0"
     tiny-invariant "^1.2.0"
 
-"@thirdweb-dev/react@^3.11.7":
+"@thirdweb-dev/react@^3.6.9-nightly-5862c55":
   version "3.11.7"
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/react/-/react-3.11.7.tgz#95a087620e439fdc7dcaca88fcae08b2d6522e0b"
   integrity sha512-KZG/UMjjEjlsmK2zipGvxJPlanhU3N0xjDJXLHo4QajecHsmJzvZfzMiiNWsGDqxQB/lCGpBhAXOywK30HFmhQ==
@@ -1919,7 +1919,7 @@
     react-qr-code "^2.0.11"
     tiny-invariant "^1.2.0"
 
-"@thirdweb-dev/sdk@3.10.10":
+"@thirdweb-dev/sdk@3.10.10", "@thirdweb-dev/sdk@^3.6.9-nightly-5862c55":
   version "3.10.10"
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/sdk/-/sdk-3.10.10.tgz#616a2b0ef11c4428f891c89763b59ca3faa63224"
   integrity sha512-cC4CIxUq2MvoqX5b5MUJiUl9Q3B1XPRJmo2cb6eFAOoVxGZsgaozUfVvs71YmRVYGyrje2v5fMsas4d9z0nUQA==
@@ -1942,7 +1942,7 @@
     yaml "^2.1.1"
     zod "^3.20.2"
 
-"@thirdweb-dev/storage@1.1.2":
+"@thirdweb-dev/storage@1.1.2", "@thirdweb-dev/storage@^1.0.6":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/storage/-/storage-1.1.2.tgz#8de899e9579f49dc2da1eb4a04694ee86ec5e62e"
   integrity sha512-l5cNliQ/BuoYjCouWR0lJ97ByJVNksKKoDuPaI6rTZuMXNEgJliTa2M5nyjM8FKK6GnykcEvAEzB2g4sar3NxA==

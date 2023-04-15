@@ -1,15 +1,3 @@
-## Getting Started
+# Lens Protocol - The ULTIMATE Guide 🌿
 
-##ETHGlobal Tokyo 2023 project
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-## Keep calm and love Tokyo
+Source code for the [Ultimate Guide to Lens Protocol video](https://youtu.be/e1mPmDRUUBc).

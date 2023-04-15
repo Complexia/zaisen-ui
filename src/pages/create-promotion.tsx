@@ -4,7 +4,7 @@ import { ethers } from 'ethers';
 import MetaMaskSDK from "@metamask/sdk";
 
 import { useSelector } from "react-redux";
-import { PromosMainABI } from '@/abis/promotionMainABI';
+import { PromosMainABI } from '../abis/promotionMainABI';
 import Link from 'next/link';
 
 
@@ -130,9 +130,9 @@ const PromotionForm = () => {
                 
 
                 const href = {
-                    pathname: '/create-lens-post',
+                    pathname: '/create',
                     query: params,
-                    as: `/create-lens-post?${new URLSearchParams(params).toString()}`,
+                    as: `/create?${new URLSearchParams(params).toString()}`,
                 };
                 
                 return (

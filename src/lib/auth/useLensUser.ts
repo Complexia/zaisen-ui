@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { useAddress } from "@thirdweb-dev/react";
 import { readAccessToken } from "./helpers";
-import { useDefaultProfileQuery } from "../graphql/generated";
+import { useDefaultProfileQuery } from "../../graphql/generated";
 
 export default function useLensUser() {
   // 1. Make a react query for the local storage Key

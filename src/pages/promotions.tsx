@@ -1,12 +1,13 @@
 import { useState } from 'react';
 import { getNFTDetails, getAllNftsOfAddress } from '../graphql/queries';
 import { ApolloClient, InMemoryCache, gql } from "@apollo/client/core"
-import NftWindow from '@/components/nftWindow';
+import NftWindow from '../components/nftWindow';
 import Link from 'next/link';
 
 const AIRSTACK_ENDPOINT = process.env.AIRSTACK_ENDPOINT ? process.env.AIRSTACK_ENDPOINT : '';
 const AIRSTACK_API_KEY = process.env.AIRSTACK_API_KEY ? process.env.AIRSTACK_API_KEY : '';
 
+console.log("hello", AIRSTACK_ENDPOINT);
 
 // Initializing Client 🚀
 const client = new ApolloClient({

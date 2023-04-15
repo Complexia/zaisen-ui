@@ -1,4 +1,3 @@
-import { ConnectButton } from "@rainbow-me/rainbowkit";
 import MetamaskConnect from "./metamaskConnectButton";
 import LensConnect from "./lensConnectButton";
 import NotificationIcon from "./notificationIcon";

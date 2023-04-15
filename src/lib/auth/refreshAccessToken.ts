@@ -2,7 +2,7 @@ import {
   RefreshMutation,
   RefreshMutationVariables,
   RefreshDocument,
-} from "../graphql/generated";
+} from "../../graphql/generated";
 import { readAccessToken, setAccessToken } from "./helpers";
 
 export default async function refreshAccessToken() {
@@ -16,7 +16,7 @@ export default async function refreshAccessToken() {
     variables?: TVariables,
     options?: RequestInit["headers"]
   ): Promise<TData> {
-    const res = await fetch("https://api.lens.dev/", {
+    const res = await fetch("https://api-mumbai.lens.dev", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -1,4 +1,4 @@
-import MyNFTs from "@/components/myNFTs"
+import MyNFTs from "../components/myNFTs"
 
 const NFTs = () => {
     return (

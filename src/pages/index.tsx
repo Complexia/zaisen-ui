@@ -1,10 +1,9 @@
-import UpcomingPromotions from '@/components/upcomingPromotions'
+import UpcomingPromotions from "../components/upcomingPromotions";
 import IndexContainer from '../components/indexContainer'
-import MyNFTs from '@/components/myNFTs'
-import HotPromotions from '@/components/hotPromotions'
-import LatestSocials from '@/components/latestSocials'
+import MyNFTs from '../components/myNFTs'
+import HotPromotions from '../components/hotPromotions'
+import LatestSocials from '../components/latestSocials'
 import { useSelector } from 'react-redux';
-import LensConnect from '@/components/lensConnectButton'
 
 export default function Home() {
 

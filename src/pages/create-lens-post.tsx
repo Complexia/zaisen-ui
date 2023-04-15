@@ -1,14 +1,26 @@
 import { useRouter } from "next/router";
 
-const CreateLensPost = () => {
 
-    
-    const handlePublishLens = async () => {
-        return null;
-    }
+const upload = async (data: unknown): Promise<string> => {
+  const serialized = JSON.stringify(data);
+  
+  const url = "lens url"
+  const response = await fetch(url);
+  const responseData = await response.text();
+  
+  return responseData;
+}
+
+const CreateLensPost = () => {
+  
+
 
     const router = useRouter();
     const { imageUrl, imageName, collectionName, contractAddress, description, tokenType, name, numberOfClaims } = router.query;
+
+    const handlePublishLens = async () => {
+      console.log("sudd")
+  }
     console.log(imageUrl, imageName, collectionName, contractAddress, description, tokenType)
     return (
         <div className="bg-white rounded-lg p-4 text-black h-screen flex flex-grow mt-8 pt-8">

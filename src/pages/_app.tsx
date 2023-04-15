@@ -33,8 +33,11 @@ import { publicProvider } from "wagmi/providers/public";
 import Layout from "../components/layout";
 
 
+
+
+
 const apiKey = process.env.ALCHEMY_API_KEY ? process.env.ALCHEMY_API_KEY : '';
-const { chains, provider } = configureChains(
+const { chains, provider, webSocketProvider } = configureChains(
 	[
 		mainnet,
 		goerli,
@@ -62,14 +65,23 @@ const wagmiClient = createClient({
 
 export { WagmiConfig, RainbowKitProvider };
 
+const client = createClient({
+	autoConnect: true,
+	provider,
+	webSocketProvider,
+  });
 
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
 	<Provider store={store}>
-		<Layout>
-			<Component {...pageProps} />
-		</Layout>
+		
+			
+				<Layout>
+					<Component {...pageProps} />
+				</Layout>
+			
+		
 	</Provider>
 	);
 }
